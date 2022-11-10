@@ -5,7 +5,7 @@ jwplayer("container").setup({
     fullscreen: "false",
     primary: 'html5',
     stretching: "exactfit",
-    autostart: false,
+    autostart: true,
 
     skin: {
         name: 'Netflix',
@@ -29,26 +29,26 @@ jwplayer("container").setup({
     description: "El amor de Tessa y Hardin nunca ha sido fácil. Mientras él permanece en Londres después de la boda de su madre y se hunde cada vez más en su propia oscuridad, ella regresa a Seattle. Tessa es la única capaz de entenderle y calmarle… él la necesita, pero ella ya no es la chica buena y dulce que era cuando llegó a la universidad. Deberá plantearse si lo que debe hacer ahora es salvar a Hardin y su relación con él, o si ha llegado el momento de pensar solo en ella. Si quieren que su amor sobreviva, primero tendrán que trabajar en sí mismos. ¿Pero será su destino seguir estando juntos?",
     image: "https://www.themoviedb.org/t/p/original/rwgmDkIEv8VjAsWx25ottJrFvpO.jpg",
     sources: [{
-    file: "https://reproductor.appsmartt.com/mp4/api.php?v=11g5xijlqmyd08x.mp4",
+    file: "https://reproductor.appsmartt.com/mp4/api.php?v=w84xpsn466pywxq.mp4",
       label: '4K',
       'type': 'mp4',
       primary: 'html5',
 
     },{
-    file: "https://reproductor.appsmartt.com/mp4/api.php?v=11g5xijlqmyd08x.mp4",
+    file: "https://reproductor.appsmartt.com/mp4/api.php?v=w84xpsn466pywxq.mp4",
       label: '1080p',
       'type': 'mp4',
       primary: 'html5',
 
     }],
     captions: [{
-      file: "https://dl.dropboxusercontent.com/s/ntn53sr3ac7sh2d/After-2022-EN.srt?dl=0",
+      file: "https://dl.dropboxusercontent.com/s/sp42dm2f7eeh8y9/After-2019-EN.srt?dl=0",
       label: 'Ingles',
       kind: "captions",
       "default": true,
     },{ 
-      file: "https://dl.dropboxusercontent.com/s/6q6wzwmdj64voum/After-2022-POR.srt?dl=0",
-         label: 'Portugues',
+      file: "https://dl.dropboxusercontent.com/s/f9kjsxlwx2almc0/After-2019-ES.srt?dl=0",
+         label: 'Español',
          kind: "captions",
          }
     ],
